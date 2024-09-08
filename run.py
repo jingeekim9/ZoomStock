@@ -54,7 +54,7 @@ def main():
     out_path = '{}/{}'.format(args.out, args.data)
     args_list = []
     for seed in args.seeds:
-        command = ['python', 'main_original.py',
+        command = ['python', 'main.py',
                    '--data', args.data,
                    '--seed', str(seed),
                    '--out', out_path]
