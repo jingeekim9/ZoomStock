@@ -13,17 +13,17 @@ Our implementation is based on Python 3.7 and PyTorch.
 ## Datasets
 
 We use 6 datasets in our work, which are not included in this repository due to
-their size but can be downloaded easily via the following links. You can run
+their size but can be downloaded easily by following the url linked to each of the dataset names. You can run
 `preprocess.py` to preprocess the stock data, and `data.py` to access the data.
 
 |Name    | Country|  Stocks|     Days|Dates|
 |:-------|------:|------:|---------:|-------:|
-|ACL18      |  US| 87|   652|      2013-06-03 to 2015-12-31|
-|ACL23 |    US| 87|    504|       2018-01-02 to 2023-04-27|
-|KOSPI   |    South Korea|  200|     1528|       2018-01-02 to 2023-11-09|
-|HK23    |  Hong Kong| 26|   1528|      2018-01-02 to 2023-11-09|
-|TWSE23  |  Taiwan| 37|   1528|      2018-01-02 to 2023-11-09|
-|DE23|  Germany| 23|    1528|       2018-01-02 to 2023-11-09|
+|[ACL18](https://github.com/fulifeng/Adv-ALSTM)      |  US| 87|   652|      2013-06-03 to 2015-12-31|
+|[ACL23](https://github.com/anonymous231129/ZoomStock) |    US| 87|    504|       2018-01-02 to 2023-04-27|
+|[KOSPI](https://github.com/anonymous231129/ZoomStock)   |    South Korea|  200|     1528|       2018-01-02 to 2023-11-09|
+|[HK23](https://github.com/anonymous231129/ZoomStock)    |  Hong Kong| 26|   1528|      2018-01-02 to 2023-11-09|
+|[TWSE23](https://github.com/anonymous231129/ZoomStock)  |  Taiwan| 37|   1528|      2018-01-02 to 2023-11-09|
+|[DE23](https://github.com/anonymous231129/ZoomStock)|  Germany| 23|    1528|       2018-01-02 to 2023-11-09|
 
 ## Usage
 
