@@ -1,6 +1,21 @@
 """
-Run main.py N times with different random seeds and GPUs.
+ZoomStock (BigData 2024)
+
+Authors:
+    - JinGee Kim (jingeekim9@snu.ac.kr)
+    - Yong-chan Park (wjdakf3948@snu.ac.kr)
+    - Jaemin Hong (jmhong0120@snu.ac.kr)
+    - U Kang (ukang@snu.ac.kr)
+
+Affiliation:
+    - Data Mining Lab., Seoul National University
+
+File: run.py
+     - Run main.py N times with different random seeds and GPUs.
+
+Version: 1.0.0
 """
+
 import argparse
 import multiprocessing
 import os
